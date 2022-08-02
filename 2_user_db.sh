@@ -79,7 +79,7 @@ echo -en '\033[1;33mВыберите ваш язык использования/
 		fi
 		done
 		mysql -u$rootuser -p --execute="create database "$C" ;"
-		echo -en '\033[1;33Wordpress готов к работе! \033[0m \n'
+		echo -en '\033[1;33 Wordpress готов к работе! \033[0m \n'
 		
 	elif [[ $lang = 2 ]]
 	then		echo -en '\033[1;33mEnter mysql database username \033[0m \n'
@@ -156,5 +156,5 @@ echo -en '\033[1;33mВыберите ваш язык использования/
 		fi
 		done
 		mysql -u$rootuser -p --execute="create database "$C" ;"
-		echo -en '\033[1;33Wordpress is ready to go! \033[0m \n'
+		echo -en '\033[1;33 Wordpress is ready to go! \033[0m \n'
 	fi
