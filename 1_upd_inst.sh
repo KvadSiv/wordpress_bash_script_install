@@ -34,7 +34,7 @@ echo -en '\033[1;33mВыберите ваш язык использования/
 				status=1
 				fi
 			done		
-				
+				sudo mysql_secure_installation
 		echo -en '\033[1;33mНачинается установка Php7.4.. \033[0m \n'
 				sudo apt install php7.4 php7.4-mysql libapache2-mod-php7.4 php7.4-cli php7.4-cgi php7.4-gd php7.4-curl php7.4-dom php7.4-imagick php7.4-mbstring php7.4-zip php7.4-intl -y
 				sudo a2enmod rewrite
@@ -80,7 +80,7 @@ echo -en '\033[1;33mВыберите ваш язык использования/
 				status=1
 				fi
 			done
-				
+				sudo mysql_secure_installation
 		echo -en '\033[1;33mPhp7.4 installation starts.. \033[0m \n'
 				sudo apt install php7.4 php7.4-mysql libapache2-mod-php7.4 php7.4-cli php7.4-cgi php7.4-gd php7.4-curl php7.4-dom php7.4-imagick php7.4-mbstring php7.4-zip php7.4-intl -y
 				sudo a2enmod rewrite

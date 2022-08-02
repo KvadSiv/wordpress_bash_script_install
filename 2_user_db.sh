@@ -5,7 +5,7 @@ echo -en '\033[1;33mВыберите ваш язык использования/
 	read lang
 	if [[ $lang = 1 ]]
 	then
-		echo -en '\033[1;33mВведите имя пользователя\033[0m \n'
+		echo -en '\033[1;33mВведите имя пользователя базы данных mysql \033[0m \n'
 			read user
 			host=localhost
 		echo -en '\033[1;33mХотите ли вы сделать пользовательский хост? (по умолчанию localhost) y/n \033[0m \n'
@@ -79,8 +79,10 @@ echo -en '\033[1;33mВыберите ваш язык использования/
 		fi
 		done
 		mysql -u$rootuser -p --execute="create database "$C" ;"
+		echo -en '\033[1;33Wordpress готов к работе! \033[0m \n'
+		
 	elif [[ $lang = 2 ]]
-	then		echo -en '\033[1;33mEnter username\033[0m \n'
+	then		echo -en '\033[1;33mEnter mysql database username \033[0m \n'
 			read user
 			host=localhost
 		echo -en '\033[1;33mDo you want to make a custom host? (default localhost) y/n \033[0m \n'
@@ -154,5 +156,5 @@ echo -en '\033[1;33mВыберите ваш язык использования/
 		fi
 		done
 		mysql -u$rootuser -p --execute="create database "$C" ;"
-
+		echo -en '\033[1;33Wordpress is ready to go! \033[0m \n'
 	fi
