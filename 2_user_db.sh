@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -Eeuo pipefail
 
 echo -en '\033[1;33mВыберите ваш язык использования/Select your language of use (rus=1 , eng=2)\033[0m \n'
 	read lang
