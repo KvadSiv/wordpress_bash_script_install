@@ -97,3 +97,12 @@ echo -en '\033[1;33mВыберите ваш язык использования/
 		echo 'It is recommended to restart the system. Restart? (y/n)' && read x && [[ "$x" == "y" ]] && /sbin/reboot;
 	
 	fi
+	
+	
+	
+	#scriptbug
+	#scriptbug
+	#scriptbug
+	#scriptbug
+	#scriptbug
+
