@@ -158,7 +158,3 @@ echo -en '\033[1;33mВыберите ваш язык использования/
 		mysql -u$rootuser -p --execute="create database "$C" ;"
 		echo -en '\033[1;33 Wordpress is ready to go! \033[0m \n'
 	fi
-
-
-
-#FILE TEST!

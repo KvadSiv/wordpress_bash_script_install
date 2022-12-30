@@ -102,7 +102,7 @@ echo -en '\033[1;33mВыберите ваш язык использования/
 	
 	#scriptbug
 	#scriptbug
-	#scriptbugTESST
+	#scriptbug
 	#scriptbug
 	#scriptbug
 
