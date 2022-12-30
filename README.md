@@ -1,7 +1,7 @@
 # Wordpress simple install scripts
 Wordpress simple install scripts
 
-## Quick start
+## Quick start TEST
 
 Enable Root user -
 
